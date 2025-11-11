@@ -6,4 +6,4 @@
 *.pyd
 __pycache__/
 .ipynb_checkpoints
-
+ipy_opengl_utils/__pycache__/
