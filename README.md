@@ -27,13 +27,13 @@ pip install -r requirements.txt
 Here is a simple example of how to use the `ipy-opengl-utils` library in a Jupyter notebook:
 
 ```python
-from ipy_opengl_utils.opengl_widget import OpenGLWidget
+from ipy_opengl_utils.particle_widget import ParticleWidget
 
 # Create an instance of the OpenGL widget
-widget = OpenGLWidget(width=800, height=600)
+widget = ParticleWidget(width=800, height=600)
 
 # Display the widget
-widget
+display(widget)
 ```
 
 For more detailed examples, please refer to the `examples/demo_notebook.ipynb` file.
