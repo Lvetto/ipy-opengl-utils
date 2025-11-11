@@ -1,0 +1,9 @@
+numpy
+PyOpenGL
+Pillow
+ipywidgets
+ipycanvas
+pyrr
+glfw
+pytest
+jupyter

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ipy-opengl-utils"
+version = "0.1.0"
+description = "A library for rendering OpenGL content in Jupyter notebooks."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21"
+pyrr = "^0.10.3"
+Pillow = "^8.0"
+ipywidgets = "^7.6"
+ipycanvas = "^0.6.0"
+PyOpenGL = "^3.1.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
